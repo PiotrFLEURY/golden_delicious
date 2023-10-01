@@ -1,0 +1,19 @@
+name: CI
+on: push
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    name: Test
+    runs-on: windows-latest
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v3
+      - name: Setup Flutter SDK
+        uses: subosito/flutter-action@v2
+      - name: Run all tests
+        run: |
+          flutter pub get
+          flutter test --dart-define=golden_tolerance=0.5
