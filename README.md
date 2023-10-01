@@ -144,7 +144,3 @@ You can define custom runtime configuration in Visual Studio Code to run your te
   ]
 }
 ```
-
-This `Tolerance` runner can be used directly inside your test code to run your tests with a tolerance percentage of 0.1%.
-
-![golden_toolkit_test.png](docs/images/golden_toolkit_test.png)

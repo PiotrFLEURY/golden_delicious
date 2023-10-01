@@ -89,7 +89,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "0.0.1"
+    version: "1.0.0"
   golden_toolkit:
     dependency: "direct dev"
     description:
@@ -224,5 +224,5 @@ packages:
     source: hosted
     version: "5.0.9"
 sdks:
-  dart: ">=3.2.0-190.0.dev <4.0.0"
+  dart: ">=3.2.0-157.0.dev <4.0.0"
   flutter: ">=1.17.0"
