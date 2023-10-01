@@ -2,6 +2,7 @@ name: golden_delicious
 description: "A tolerance comparator for Flutter golden tests."
 version: 1.0.0
 homepage: https://mobile-tools.dev/
+repository: https://github.com/PiotrFLEURY/golden_delicious
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
